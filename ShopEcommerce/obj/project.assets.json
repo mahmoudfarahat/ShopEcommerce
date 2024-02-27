@@ -3396,7 +3396,6 @@
       "path": "system.runtime/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -3779,7 +3778,6 @@
       "path": "system.text.encoding/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -4083,26 +4081,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Mahmoud\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Users\\mahmoud.farahat\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mahmoud\\Desktop\\ShopEcommerce\\ShopEcommerce\\ShopEcommerce.csproj",
+      "projectUniqueName": "C:\\Users\\mahmoud.farahat\\Desktop\\ShopEcommerce\\ShopEcommerce\\ShopEcommerce.csproj",
       "projectName": "ShopEcommerce",
-      "projectPath": "C:\\Users\\Mahmoud\\Desktop\\ShopEcommerce\\ShopEcommerce\\ShopEcommerce.csproj",
-      "packagesPath": "C:\\Users\\Mahmoud\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Mahmoud\\Desktop\\ShopEcommerce\\ShopEcommerce\\obj\\",
+      "projectPath": "C:\\Users\\mahmoud.farahat\\Desktop\\ShopEcommerce\\ShopEcommerce\\ShopEcommerce.csproj",
+      "packagesPath": "C:\\Users\\mahmoud.farahat\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\mahmoud.farahat\\Desktop\\ShopEcommerce\\ShopEcommerce\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Mahmoud\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\mahmoud.farahat\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4110,6 +4105,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "E:\\Stimulsoft Reports 2023.1.1\\Crack\\Libs\\Reports.NetCore": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

@@ -1,6 +1,7 @@
 
 
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
 using ShopEcommerce.Models;
 
 namespace ShopEcommerce
@@ -14,12 +15,17 @@ namespace ShopEcommerce
 
             builder.Services.AddScoped<IPieRepository, PieRepository>();
             builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
-           
+            builder.Services.AddScoped<IOrderRepository,OrderRepository>();
+
             builder.Services.AddScoped<IShoppingCart, ShoppingCart>(serviceProvidor => ShoppingCart.GetCart(serviceProvidor));
+
+
             builder.Services.AddSession();
             builder.Services.AddHttpContextAccessor();  
 
             builder.Services.AddControllersWithViews(); // enable mvc 
+
+            builder.Services.AddRazorPages();
 
             builder.Services.AddDbContext<ShopDbContext>(options =>
             {
@@ -49,7 +55,7 @@ namespace ShopEcommerce
             //app.MapControllerRoute(
             // name: "default",
             // pattern: "{controller=Home}/{action=Index}/{id:int?}");
-
+            app.MapRazorPages();
 
             DbInitializer.Seed(app);
 
