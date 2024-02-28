@@ -1,6 +1,10 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\mahmoud.farahat\\Desktop\\ShopEcommerce\\ShopEcommerce\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ShopEcommerce.bundle.scp.css",
+      "PackagePath": "staticwebassets\\ShopEcommerce.bundle.scp.css"
+    },
+    {
       "Id": "C:\\Users\\mahmoud.farahat\\Desktop\\ShopEcommerce\\ShopEcommerce\\wwwroot\\Images\\bethanys-pie-shop-logo_horiz-white.png",
       "PackagePath": "staticwebassets\\Images\\bethanys-pie-shop-logo_horiz-white.png"
     },

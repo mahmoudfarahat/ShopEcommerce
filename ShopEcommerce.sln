@@ -5,7 +5,7 @@ VisualStudioVersion = 17.8.34316.72
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShopEcommerce", "ShopEcommerce\ShopEcommerce.csproj", "{4A30A410-E7EE-4AD6-AE69-BC914B2D521E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopEcommerce.test", "ShopEcommerce.test\ShopEcommerce.test.csproj", "{C7CCE1B2-F0BA-40DB-BFC3-9E54A4B6DC98}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShopEcommerce.test", "ShopEcommerce.test\ShopEcommerce.test.csproj", "{C7CCE1B2-F0BA-40DB-BFC3-9E54A4B6DC98}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
